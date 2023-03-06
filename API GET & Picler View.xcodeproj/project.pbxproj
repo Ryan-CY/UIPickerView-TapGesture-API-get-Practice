@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		7749F70529B461EC00D8F45E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F70429B461EC00D8F45E /* AppDelegate.swift */; };
 		7749F70729B461EC00D8F45E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F70629B461EC00D8F45E /* SceneDelegate.swift */; };
-		7749F70929B461EC00D8F45E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F70829B461EC00D8F45E /* ViewController.swift */; };
 		7749F70C29B461EC00D8F45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7749F70A29B461EC00D8F45E /* Main.storyboard */; };
 		7749F70E29B461ED00D8F45E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7749F70D29B461ED00D8F45E /* Assets.xcassets */; };
 		7749F71129B461ED00D8F45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7749F70F29B461ED00D8F45E /* LaunchScreen.storyboard */; };
+		7749F71929B4643500D8F45E /* BibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F71829B4643500D8F45E /* BibleViewController.swift */; };
+		7749F71B29B4645D00D8F45E /* Bible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F71A29B4645D00D8F45E /* Bible.swift */; };
+		7749F71D29B46DD800D8F45E /* BibleViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F71C29B46DD800D8F45E /* BibleViewController+Extension.swift */; };
+		7749F71F29B477FE00D8F45E /* BibleVerse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749F71E29B477FE00D8F45E /* BibleVerse.swift */; };
+		77ED716329B599A000FC644C /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77ED716229B599A000FC644C /* ChenYuluoyan-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7749F70129B461EC00D8F45E /* API GET & Picler View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API GET & Picler View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7749F70429B461EC00D8F45E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7749F70629B461EC00D8F45E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7749F70829B461EC00D8F45E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7749F70B29B461EC00D8F45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7749F70D29B461ED00D8F45E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7749F71029B461ED00D8F45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7749F71229B461ED00D8F45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7749F71829B4643500D8F45E /* BibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleViewController.swift; sourceTree = "<group>"; };
+		7749F71A29B4645D00D8F45E /* Bible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible.swift; sourceTree = "<group>"; };
+		7749F71C29B46DD800D8F45E /* BibleViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleViewController+Extension.swift"; sourceTree = "<group>"; };
+		7749F71E29B477FE00D8F45E /* BibleVerse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleVerse.swift; sourceTree = "<group>"; };
+		77ED716229B599A000FC644C /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				7749F70429B461EC00D8F45E /* AppDelegate.swift */,
 				7749F70629B461EC00D8F45E /* SceneDelegate.swift */,
-				7749F70829B461EC00D8F45E /* ViewController.swift */,
 				7749F70A29B461EC00D8F45E /* Main.storyboard */,
+				7749F71C29B46DD800D8F45E /* BibleViewController+Extension.swift */,
+				7749F71A29B4645D00D8F45E /* Bible.swift */,
+				7749F71829B4643500D8F45E /* BibleViewController.swift */,
+				7749F71E29B477FE00D8F45E /* BibleVerse.swift */,
+				77ED716229B599A000FC644C /* ChenYuluoyan-Thin.ttf */,
 				7749F70D29B461ED00D8F45E /* Assets.xcassets */,
 				7749F70F29B461ED00D8F45E /* LaunchScreen.storyboard */,
 				7749F71229B461ED00D8F45E /* Info.plist */,
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7749F6FC29B461EC00D8F45E /* Build configuration list for PBXProject "API GET & Picler View" */;
+			buildConfigurationList = 7749F6FC29B461EC00D8F45E /* Build configuration list for PBXProject "API GET & Picker View" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7749F71129B461ED00D8F45E /* LaunchScreen.storyboard in Resources */,
+				77ED716329B599A000FC644C /* ChenYuluoyan-Thin.ttf in Resources */,
 				7749F70E29B461ED00D8F45E /* Assets.xcassets in Resources */,
 				7749F70C29B461EC00D8F45E /* Main.storyboard in Resources */,
 			);
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7749F70929B461EC00D8F45E /* ViewController.swift in Sources */,
+				7749F71B29B4645D00D8F45E /* Bible.swift in Sources */,
+				7749F71929B4643500D8F45E /* BibleViewController.swift in Sources */,
 				7749F70529B461EC00D8F45E /* AppDelegate.swift in Sources */,
+				7749F71D29B46DD800D8F45E /* BibleViewController+Extension.swift in Sources */,
+				7749F71F29B477FE00D8F45E /* BibleVerse.swift in Sources */,
 				7749F70729B461EC00D8F45E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7749F6FC29B461EC00D8F45E /* Build configuration list for PBXProject "API GET & Picler View" */ = {
+		7749F6FC29B461EC00D8F45E /* Build configuration list for PBXProject "API GET & Picker View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7749F71329B461ED00D8F45E /* Debug */,
